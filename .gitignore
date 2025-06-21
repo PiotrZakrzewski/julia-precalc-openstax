@@ -1,0 +1,31 @@
+# Julia compiled packages
+.julia/compiled/
+
+# Julia artifacts and environments
+artifacts/
+.manifest/
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# Backup files
+*.bak
+*~
+*.swp
+*.swo
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Output files
+*.png
+*.pdf
+*.svg
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
