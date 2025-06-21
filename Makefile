@@ -7,4 +7,4 @@ setup:
 	$(JULIA) -e 'using Pkg; Pkg.instantiate()'
 
 run:
-	$(JULIA) main.jl
+	$(JULIA) ch1/*.jl
