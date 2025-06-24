@@ -1,6 +1,6 @@
 JULIA = julia --project=.
 
-.PHONY: setup run plot clean help
+.PHONY: setup run shell
 
 ## Install required packages
 setup:
@@ -8,3 +8,6 @@ setup:
 
 run:
 	$(JULIA) ch1/*.jl
+
+shell:
+	$(JULIA) 
